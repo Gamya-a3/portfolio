@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> RESUME </title>
+        <style>
+            .img{
+                border-radius:0%;
+                right:500px;
+                padding-top: 40px;
+                padding-left: 25px;
+            }
+            table, th, td{
+                border: 1px solid black;
+            }  
+            section + section{
+                margin-top: 2rem;
+            }
+            li+li{
+                margin-top:1rem;
+            }
+            .skills > ul{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-gap:1rem;
+            }
+            .abt{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-gap:1rem;
+            }
+            .hi{
+                display:grid;
+                grid-template-columns: 1fr 1fr ;
+                grid-gap:1rem;
+            }
+            .gam{
+                border-style:double;
+                border-width: 30px;
+                border-right: 10%;
+                color:rgba(186, 9, 222, 0.797);
+                padding-right: 5px;
+                margin-right:800px;
+                font-size: 22px;  
+            }
+            .ss{
+                display:grid;
+                grid-template-columns: 1fr 1fr ;
+                grid-gap:  1rem;
+                background-color: antiquewhite;
+            }
+            .para{
+                font-size: 25px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            .col{
+                color: rgb(206, 160, 98);
+                max-height: 50px;
+            }
+            div.absolue{
+                position: absolute;
+                left:1000px;
+            }
+            .gg{
+                border-style:double;
+                border-width: 30px;
+                border-right: 10%;
+                padding-right: 100px;
+                margin-right:500px;
+            }
+            .ll{
+                border-style:double;
+                border-width: 30px;
+                border-right: 10%;
+               font-size: 22px;
+               color:rgba(186, 9, 222, 0.797);
+                padding-right: 5px;
+                margin-right:500px;
+            }
+            .pp{
+                border-style:inset;
+                border-width: 30px;
+                border-right: 10%;
+                padding-right:5px;
+                margin-right:900px;
+            
+            }
+            .all{
+               padding-right: 50px; 
+               background-image: url('C:/Users/gamyasri/Downloads/5498384.png');
+            }
+            .tae{
+                padding-left: 300px;
+            }
+            .jin{
+                font-size: 22px;
+                color:coral;
+            }
+            .joon{
+                padding-left: 28px;
+                font-size: 22px;
+                font-style: italic;
+                color:crimson;
+            }
+            .jimin{
+                font-size: 22px;
+                color:rgba(186, 9, 222, 0.797);
+            }
+            .fa{
+                font-size: 24px;
+            }
+            
+            </style>
+    </head>
+    <body>
+        <div class="all">
+        <div class="hlo">
+            <div class="hope">
+        <h1 class="hi">GAMYA SRI SIRIGINEEDI</h1></div>
+<P>Full Stack Developer, AI Engineer</P>
+<span class="ss">
+       <div>
+            <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvRzqqlRIPt1ywm8gF14ShyGIvAj99wdbSxA&usqp=CAU">
+<p class="joon"> Gamya Sri Sirigineedi</p></div>
+<section class="abt">
+    <p class="para">" Hello! I am Gamya Sri Sirigineedi. I am currently pursuing my B.tech degree.
+        I'm very much interested in starting my career as a <i>Full stack web developer</i> in which i'm very confident about.
+    I work hard ,learn things quick and good at communication which makes me more suitable for this job."</p>
+</section>
+</span>
+
+<span >
+<section class="pp ">
+    <h1 class="col"><b> Contact </b></h1>
+   <ul class="jin">
+    <li><i class="fa">&#128231;  </i> gamya7@gmail.com</li>
+    <li><i class="fa">&#128222;</i> 999999999999 </li>
+    <li><a href="#" class="fa fa-linkedin"></a>www.linkedin.com</li>
+   </ul>
+</section>
+<section class="skills">
+    <h2 class="col"> <b><i>Skills</i></b></h2>
+    <ul>
+        <li class="new">
+        <h3>computer related</h3>
+        <ul class="ll ">
+        <li>Full Stack Web Development</li>
+        <li> Machine Learning</li>
+        <li> Artificial Intelligence</li>
+        </ul></li>
+        <li>
+        <h3>soft skills</h3>
+        <ul class="ll">
+            <li>Communication</li>
+            <li>Problem Solving</li>
+            <li>Creativity</li>
+            <li>Adaptability</li>
+        </ul></li>
+    </ul>
+</section>
+<section class="tae " >
+    <h1 class="col"><b>Education</b></h1>
+    <div class="absolute">
+    <table cell-spacing="3" cell-padding="3">
+        <tr>
+            <th><b>Studying</b></th>
+            <th><b>Name</b></th>
+            <th><b>Percentage</b></th>
+        </tr>
+        <tr>
+             <td>School</td>
+            <td>Aditya school</td>
+            <td>98%</td>
+        </tr>
+        <tr>
+            <td>Intermediate</td>
+            <td> Aditya junior college</td>
+            <td>91%</td>
+        </tr>
+        <tr>
+            <td>B.tech</td>
+            <td>Vishnu institute of technology</td>
+            <td>85%</td>
+        </tr>
+    </table>
+</div>
+</section>
+</span>
+<section class="hi">
+<section>
+    <h1 class="col "> <b> Certifications </b></h1>
+    <div class="gg jimin ">
+    <p> Udemy: complete python programming for beginners, web designing</p>
+    <p> pantech: Data science course</p>
+    <p> machine learning</p>
+    <p>coursera: full stack web development</p>
+    </div>
+</section>
+<section>
+    <h1 class="col "> Languages </h1>
+    <ol class="gam">
+        <li> Telugu</li>
+        <li> Hindi</li>
+        <li> English</li>
+        <li> korean</li>
+    </ol>
+</section>
+</section>
+</div>
+</div>
+    </body>
+</html>
